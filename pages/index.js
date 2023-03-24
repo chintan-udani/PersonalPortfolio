@@ -4,6 +4,7 @@ import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import Skills from "../components/Skills";
 import WorkCard from "../components/WorkCard";
+import Cont from "../components/Contact";
 import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
@@ -14,6 +15,7 @@ import Cursor from "../components/Cursor";
 
 // Local Data
 import data from "../data/portfolio.json";
+import Contact from "../components/Contact";
 
 export default function Home() {
   // Ref
@@ -112,7 +114,7 @@ export default function Home() {
 
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
+          <h1 className="tablet:m-10 text-2xl text-bold">Education</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
             {data.services.map((service, index) => (
               <ServiceCard
@@ -137,6 +139,7 @@ export default function Home() {
             {data.aboutpara}
           </p>
         </div>
+        <Cont/>
         <Footer />
       </div>
     </div>
