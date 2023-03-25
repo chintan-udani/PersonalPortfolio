@@ -11,6 +11,7 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
+import Contact from "../components/Contact";
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -138,7 +139,7 @@ export default function Home() {
             {data.aboutpara}
           </p>
         </div>
-        
+        <Contact />
         <Footer />
       </div>
     </div>
