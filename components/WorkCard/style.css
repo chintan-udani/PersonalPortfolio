@@ -20,7 +20,7 @@
     width: var(--width);
     height: var(--height);
     margin: calc(var(--height) * -0.5) 0 0 calc(var(--width) * -0.5);
-    border-radius: 20px;
+    border-radius: 10px;
     top: 30vw;
     left: 50%;
     user-select: none;
