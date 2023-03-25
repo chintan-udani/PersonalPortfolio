@@ -28,7 +28,7 @@ form {
   }
   
   /* form button */
-  button {
+  form button {
     background-color: #3b5998;
     color: #fff;
     border: none;
