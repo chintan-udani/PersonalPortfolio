@@ -6,6 +6,7 @@ import ProjectResume from "../components/ProjectResume";
 import Socials from "../components/Socials";
 import Button from "../components/Button";
 import { useTheme } from "next-themes";
+import Contact from "../components/Contact";
 // Data
 import { name, showResume } from "../data/portfolio.json";
 import { resume } from "../data/portfolio.json";
@@ -126,7 +127,10 @@ const Resume = () => {
             </div>
           </div>
         )}
+        <center><h1 className="tablet:m-10 my-4 text-4xl text-bold">Let's Talk</h1></center>
+        <Contact />
       </div>
+     
     </>
   );
 };
