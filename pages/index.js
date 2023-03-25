@@ -4,7 +4,6 @@ import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import Skills from "../components/Skills";
 import WorkCard from "../components/WorkCard";
-import Cont from "../components/Contact";
 import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
@@ -15,7 +14,7 @@ import Cursor from "../components/Cursor";
 
 // Local Data
 import data from "../data/portfolio.json";
-import Contact from "../components/Contact";
+
 
 export default function Home() {
   // Ref
@@ -139,7 +138,7 @@ export default function Home() {
             {data.aboutpara}
           </p>
         </div>
-        <Cont/>
+        
         <Footer />
       </div>
     </div>
