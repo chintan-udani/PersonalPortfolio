@@ -83,7 +83,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:chintanudani2000@gmail.com")}
                   >
                     Contact
                   </Button>
@@ -106,7 +106,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:chintanudani2000@gmail.com")}
                   >
                     Contact
                   </Button>
@@ -143,7 +143,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("mailto:chintanudani2000@gmail.com")}>
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
@@ -172,7 +172,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("mailto:chintanudani2000@gmail.com")}>
               Contact
             </Button>
 
