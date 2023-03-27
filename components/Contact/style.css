@@ -49,4 +49,9 @@ form {
     margin: 10px;
     text-align: center;
   }
-  
+  form svg{
+    width: 80%;
+    margin: 5%;
+    height: auto;
+    
+  }
