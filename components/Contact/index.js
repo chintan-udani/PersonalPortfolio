@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <form
-        action="https://airform.io/chintanudani2000@gmail.com"
+        action="https://script.google.com/macros/s/AKfycbz_1ikf6oNVoMCDUPQ7aIfUvFVWmx_ZxjZ7u1JraC4R1oqoMnJ--D997mfn-XBNhhI/exec"
         method="post"
       >
       <center>
